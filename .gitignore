@@ -1,0 +1,15 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.vscode/
+build/
+dist/
+LinuxPackage/
+MsixPackage/
+venv-linux/
+*.db
+*.log
+*.msix
+*.cer
+*.pfx
+
