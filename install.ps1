@@ -6,7 +6,7 @@ if (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]:
 
 Write-Host "============================================="
 Write-Host "      Wallet Hub Secure MSIX Installer       "
-Write-Host "============================================="
+Write-Hofst "============================================="
 Write-Host ""
 Write-Host "1/4 Creating a secure Self-Signed Certificate..."
 $cert = New-SelfSignedCertificate -Type Custom -Subject "CN=WalletHub" -KeyUsage DigitalSignature -FriendlyName "Wallet Hub App Cert" -CertStoreLocation "Cert:\LocalMachine\My" -TextExtension @("2.5.29.37={text}1.3.6.1.5.5.7.3.3", "2.5.29.19={text}")
